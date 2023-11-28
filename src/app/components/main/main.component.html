@@ -1,0 +1,7 @@
+<nav class="navbar navbar-light" style="background-color: #e3f2fd" *ngIf="isAuthenticated">
+    <a class="navbar navbar-brand">{{nombre}}</a>
+    <form class="form-inline">
+        <button class="btn btn-danger my-2 my-sm-0" type="button" (click)="showData()">Traer Data Sesion</button>
+        <button class="btn btn-danger my-2 my-sm-0" type="button" (click)="logOut()">Cerrar Sesion</button>
+    </form>
+</nav>

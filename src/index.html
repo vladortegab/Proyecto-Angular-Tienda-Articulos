@@ -23,9 +23,12 @@
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
+<body class="mat-typography">
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -40,17 +43,17 @@
       <!-- Collapsible wrapper -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <a class="navbar-brand mt-2 mt-lg-0" href="/inicio">
           <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo"
             loading="lazy" />
         </a>
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="/inicio">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Productos</a>
+            <a class="nav-link" href="/articulos">Productos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sobre Nosotros</a>
@@ -93,7 +96,9 @@
               <!-- Notification dropdown -->
             </ul>
           </div>
+          
         </nav>
+         </div>
         <!-- Avatar -->
         <!-- Avatar -->
         <div class="dropdown">
@@ -119,6 +124,7 @@
       </div>
       <!-- Container wrapper -->
   </nav>
+
 
 
   <!-- Navbar -->

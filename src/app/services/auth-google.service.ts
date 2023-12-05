@@ -17,7 +17,7 @@ export class AuthGoogleService {
       redirectUri: window.location.origin + '/main',
       strictDiscoveryDocumentValidation: false,
       clientId:
-        '875216460326-snvciu6bo4k9fci0f3ne4n8s1af1855m.apps.googleusercontent.com',
+        'tus credenciales',
       scope: 'openid profile email',
     };
     this.oauthService.configure(config);
